@@ -1,0 +1,123 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family:'Merriweather',sans-serif;
+}
+h1{
+  color: #66BFBF;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento',cursive;
+}
+p{
+  line-height: 2;
+  font-family: 'Noto Sans TC',sans-serif;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Noto Sans TC',sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3{
+  color:#11999E;
+  font-family: 'Noto Sans TC',sans-serif;
+}
+hr{
+  border: dotted #EAF6F6 6px ;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  color: #11999E;
+  font-family: 'Noto Sans TC',sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #eAF5F6;
+}
+.top-container{
+  background-color: #bbf1c8;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin: 100px 0;
+
+
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.top-cloud{
+  position: absolute;
+right:300px;
+top: 40px;
+
+}
+.design{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.photography{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.foods{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.testbutton {
+  font-family: 'Noto Sans TC' sans-serif;
+  color: #FFFFFF ;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  background: #38CFCF;
+  background-image: linear-gradient(to bottom,  #42DEE3,  #2EAAB3);
+  background-image: -ms-linear-gradient(top,  #42DEE3,  #2EAAB3);
+  background-image: -webkit-linear-gradient( top,#42DEE3, #2EAAB3);
+  background-image: -moz-linear-gradient(top,  #42DEE3,  #2EAAB3);
+}
+.testbutton:hover {
+  color: #FFFFFF ;
+  background: #1EE8CD;
+  background: linear-gradient(top,  #2FFABD,  #1FB8AD);
+  background: -ms-linear-gradient(top,  #2FFABD,  #1FB8AD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#2FFABD), to(#1FB8AD));
+  background: -moz-linear-gradient(top,  #2FFABD,  #1FB8AD);
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
